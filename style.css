@@ -3,3 +3,7 @@
     font-family:
         system-ui, sans-serif; /*set default font to system-based font*/
 }
+.checked {
+    /*rating styles for checked stars*/
+    color: orange; /*set star color to orange if checked*/
+}
