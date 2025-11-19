@@ -11,11 +11,23 @@
     <body>
         <h1>Simple Rating System Web App</h1>
         <div class="rating">
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
+            <span class="fa fa-star" onclick="setStars(this, 1)"></span>
+            <span class="fa fa-star" onclick="setStars(this, 2)"></span>
+            <span class="fa fa-star" onclick="setStars(this, 3)"></span>
+            <span class="fa fa-star" onclick="setStars(this, 4)"></span>
+            <span class="fa fa-star" onclick="setStars(this, 5)"></span>
         </div>
+        <script>
+            function setStars(el, rating) {
+                const stars = document.querySelectorAll(".fa.fa-star");
+                stars.forEach((star, index) => {
+                    if (index < rating) {
+                        star.classList.add("checked");
+                    } else {
+                        star.classList.remove("checked");
+                    }
+                });
+            }
+        </script>
     </body>
 </html>
