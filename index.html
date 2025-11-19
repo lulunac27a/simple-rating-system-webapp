@@ -19,12 +19,15 @@
         </div>
         <script>
             function setStars(el, rating) {
-                const stars = document.querySelectorAll(".fa.fa-star");
+                //function to set stars
+                const stars = document.querySelectorAll(".fa.fa-star"); //select all star elements
                 stars.forEach((star, index) => {
+                    //for each star
                     if (index < rating) {
-                        star.classList.add("checked");
+                        //if index is less than rating
+                        star.classList.add("checked"); //add checked class
                     } else {
-                        star.classList.remove("checked");
+                        star.classList.remove("checked"); //remove checked class if index is greater than rating
                     }
                 });
             }
