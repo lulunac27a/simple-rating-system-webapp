@@ -6,4 +6,4 @@ This is a simple rating system web app that allows users to rate items and view 
 
 1. Clone the repository.
 2. Open index.html in your browser.
-3. Click on the star button to rate an item.
+3. Click on the star button to change the number of stars of the rating.
