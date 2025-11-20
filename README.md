@@ -1,6 +1,7 @@
 # Simple Rating System Web App
 
-This is a simple rating system web app that allows users to rate items and view their ratings.
+This is a simple rating system web app that allows users to rate items and view
+their ratings.
 
 ### Getting Started
 
