@@ -7,3 +7,21 @@
     /*rating styles for checked stars*/
     color: orange; /*set star color to orange if checked*/
 }
+
+not .checked {
+    /*rating styles for unchecked stars*/
+    color: gray; /*set star color to gray if unchecked*/
+}
+.rating {
+    /*rating container styles*/
+    display: inline-block; /*display rating inline*/
+    font-size: 24px; /*set font size for stars*/
+}
+.rating input {
+    /*hide radio buttons*/
+    display: none; /*hide input elements*/
+}
+.rating label {
+    /*star label styles*/
+    cursor: pointer; /*change cursor to pointer on hover*/
+}
